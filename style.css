@@ -149,3 +149,8 @@ table p {
     color: rgb(80, 80, 80);
 }
 
+#footer p {
+  font-size: 14px;
+  color: rgb(150, 150, 150);
+  text-align: center;
+}
