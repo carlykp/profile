@@ -1,0 +1,151 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  font-family: 'Nanum Myeongjo', serif;
+  background-color: rgb(250, 250, 250);
+}
+
+h1, h2, h3, h4, p{
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+h1 {
+  font-size: 24px;
+  color: rgb(19, 130, 117);
+  font-weight: bolder;
+  text-align: center;
+}
+
+h2 {
+  font-size: 22px;
+  color: rgb(60, 60, 60);
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+  color: rgb(75, 75, 75);
+  line-height: 2px;
+}
+
+h4 {
+  font-size: 18px;
+  color: rgb(80, 80, 80);
+  line-height: 2px;
+}
+
+p {
+  font-size: 16px;
+  color: rgb(90, 90, 90);
+  text-align: justify;
+}
+
+li a {
+  font-size: 16px;
+  color: rgb(150, 150, 150);
+  text-decoration: none;
+}
+
+.card {
+  background: white;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.card ul {
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.card li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.card table {
+  vertical-align: top;
+}
+
+#profile {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  align-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 1em 1em;
+}
+
+table p {
+  font-size: 16px;
+  color: rgb(120, 120, 120);
+  text-align: justify;
+}
+
+.things {
+  width: 150px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.container {
+  width: 600px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.button {
+    background-color: rgb(80, 80, 80);
+    border: 2px solid rgb(80, 80, 80);
+    color: rgb(255, 255, 255);
+    padding: 10px 27px;
+    text-align: center;
+    display: block;
+    font-size: 18px;
+    border-radius: 10px;
+    font-family: 'Nanum Myeongjo', serif;
+    margin: 0 auto;
+}
+
+.button a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.button:hover {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(80, 80, 80);
+}
+
+.button:hover a {
+    color: rgb(80, 80, 80);
+}
+
